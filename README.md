@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# SpendWise - Budget Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to SpendWise, your ultimate solution for managing your finances efficiently. This budget tracker leverages modern web technologies to provide a seamless and intuitive user experience. With SpendWise, you can easily track your income and expenses, categorize transactions, and gain insights into your spending habits.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Budget Tracking**: Monitor your income and expenses in real-time.
+- **Categorization**: Organize transactions into various categories for better clarity.
+- **Context API**: Utilize React's Context API for state management across the application.
+- **Local Storage**: Persist user data using the browser's local storage, ensuring your information is saved even after a page refresh.
+- **Speechly Integration**: Add transactions using voice commands for hands-free operation.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To get started with SpendWise, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/yourusername/spendwise-budget-tracker.git
+    cd spendwise-budget-tracker
+    ```
 
-### `npm run build`
+2. **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Run the Application**
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your application should now be running on `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+Once the application is up and running, you can start tracking your finances:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Add Transactions**: Click on the "Add Transaction" button to input your income or expenses. You can also use voice commands if Speechly is set up.
+2. **View Summary**: Check the summary section to see your total income, total expenses, and balance.
+3. **Categorize**: Transactions can be categorized to help you analyze your spending patterns.
+4. **Local Storage**: All your data is saved in the local storage, so you don't lose your data upon refreshing the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We welcome contributions to enhance SpendWise. To contribute, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Fork the Repository**
+    Click the "Fork" button on the top right of the repository page.
 
-## Learn More
+2. **Clone Your Fork**
+    ```bash
+    git clone https://github.com/yourusername/spendwise-budget-tracker.git
+    cd spendwise-budget-tracker
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Create a Branch**
+    ```bash
+    git checkout -b feature-branch
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Make Your Changes**
 
-### Code Splitting
+5. **Commit and Push**
+    ```bash
+    git add .
+    git commit -m "Description of your changes"
+    git push origin feature-branch
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. **Create a Pull Request**
+    Go to the original repository on GitHub and click the "New Pull Request" button.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Thanks to the Speechly team for their voice recognition API.
+- Inspired by various budget tracking tools and financial management best practices.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy budgeting with SpendWise!
